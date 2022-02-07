@@ -12,9 +12,7 @@ URLS = [
     "https://www.brainyquote.com/topics/change-quotes"
 ]
 
-numUrls = len(URLS)
-
-page = requests.get(URLS[randrange(numUrls)])
+page = requests.get(URLS[randrange(len(URLS))])
 
 soup = BeautifulSoup(page.content, "html.parser")
 
