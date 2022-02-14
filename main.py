@@ -23,4 +23,4 @@ pick = randrange(len(quotes))
 
 print("\n", quotes[pick].text, "\n - ", authors[pick].text, "\n\n\n")
 
-input("Press Any Key To Exit.")
+input("Press any key to exit.")
